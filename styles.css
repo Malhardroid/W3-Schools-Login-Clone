@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*Main Container*/
+
+main {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 1em;
+	border: solid 1px #818181;
+    border-radius: 10px;
+    transition: all 100ms;
+}
+
+main h1{
+    font-weight:bolder;
+}
+
+.main_container {
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	gap: 1.2em;
+	background-color: #ffffff;
+	padding: 1em;
+	border-radius: 8px;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+/*Main form*/
+
+.main_form {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5em;
+	text-align: left;
+	padding: 1em;
+}
+
+.main_form input {
+	width: 93%;
+	padding: 0.5em 0.75em;
+	border-radius: 4px;
+	margin-top: 4px;
+}
+
+button {
+	font-weight: 500;
+}
+
+.main_form label {
+	width: 100%;
+}
+
+.main_form label p {
+	color: #818181;
+}
+
+.tab-2{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+/*Navigation Bar*/
+
+.nav_logo{
+    width: 37px;
+}
+.nav_2{
+    width: 70px;
+}
+.tab{
+    display: inline-block;
+    margin-left: 750px;
+}
+
+/*Links*/
+
+a{
+    text-decoration: none;
+    transition: all 100ms;
+    color: #4caf50;
+    font-weight: 100;
+}
+a:hover {
+	text-decoration-color: #4caf50;
+}
+
+/*Signup button*/
+
+#signup_button {
+	background-color: #4caf50;
+	color: #ffffff;
+	padding: 1em;
+	border-radius: 40px;
+	transition: all 100ms;
+	border: none;
+}
+
+#signup_button:hover{
+    cursor: pointer;
+    background-color: #429845;
+}
+
+/*Login Table*/
+
+table {
+	border-collapse: collapse;
+}
+
+table,
+th,
+td {
+	border: solid 1px #818181;
+	text-align: center;
+	padding: 0.25em;
+}
